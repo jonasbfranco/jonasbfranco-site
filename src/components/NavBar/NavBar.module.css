@@ -3,11 +3,18 @@
     background: #5a4586;
     background: linear-gradient(180deg, #5a4586 35%, rgba(0,0,0,1) 100%);
     height: 100vh;
-    width: 250px;
+    width: 300px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     flex-direction: column;
     position: fixed;
     left: 0;
+}
 
+.img_logo {
+    border: 7px solid transparent;
+    box-shadow: rgb(255 255 255) 0px 0px 0px 2px;
+    border-radius: 50%;
+    object-fit: cover;
 }
