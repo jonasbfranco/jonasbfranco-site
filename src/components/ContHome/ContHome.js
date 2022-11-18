@@ -1,4 +1,6 @@
 import styles from './ContHome.module.css'
+import { FaHtml5, FaCss3Alt } from "react-icons/fa";
+
 
 export default function ContHome() {
 
@@ -35,14 +37,14 @@ export default function ContHome() {
         <h2 className={styles.h2_margin_top}>Conhecimentos</h2>
             <div className={styles.conhec_container}>
                 <div className={styles.conhec_card}>
-                    <div>svg</div>
-                    <div><span>HTML</span>
+                    <div className={styles.conhec_svg}><FaHtml5/></div>
+                    <div className={styles.hov}><span>HTML</span>
                         <strong>2 anos de experiência</strong>
                     </div>
                 </div>
-                <div>
-                    <div>svg</div>
-                    <div>
+                <div className={styles.conhec_card}>
+                    <div className={styles.conhec_svg}><FaCss3Alt/></div>
+                    <div className={styles.hov}>
                         <span>CSS</span>
                         <strong>2 anos de experiência</strong>
                     </div>
