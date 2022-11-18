@@ -1,0 +1,12 @@
+.container_home {
+    /* width: auto; */
+    padding: 3.5rem;
+    margin-left: 320px;
+    background: red;
+    height: 100vh;
+}
+
+.container_home h1 {
+    margin: 0 !important;
+    background: rebeccapurple;
+}
