@@ -10,7 +10,7 @@ https://cssgradient.io/
 
 npm install react-icons --save
 ou
-yarn add react-icons --save
+yarn add react-icons
 
 
 ### Fonte Awesome

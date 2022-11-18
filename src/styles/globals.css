@@ -15,6 +15,22 @@ a {
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  transition: all 0.3s ease 0s;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5a4586;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #474646;
+  border-radius: 10px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
