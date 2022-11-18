@@ -33,8 +33,8 @@ export default function ContHome() {
 
         <section>
         <h2 className={styles.h2_margin_top}>Conhecimentos</h2>
-            <div>
-                <div>
+            <div className={styles.conhec_container}>
+                <div className={styles.conhec_card}>
                     <div>svg</div>
                     <div><span>HTML</span>
                         <strong>2 anos de experiência</strong>
@@ -49,6 +49,27 @@ export default function ContHome() {
                 </div>
             </div>
         </section>
+
+        <section>
+            <form className={styles.form}>
+                <div>
+                    <label for="name">Nome</label>
+                    <input type="text" value="" id="name" name="name" />
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" value="" id="email" name="email" />
+                </div>
+                <div>
+                    <label for="message">Mensagem</label>
+                    <textarea id="message"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+
 
         <footer>
                 <p>Feito com 💙 por Jonas B. Franco</p>

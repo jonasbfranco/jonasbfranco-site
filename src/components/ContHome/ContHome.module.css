@@ -35,6 +35,39 @@
     color: #ffffff;
 }
 
+.container_home .conhec_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    background: rgb(28, 28, 28);
+    padding: 1rem;
+    border-radius: 16px;
+}
+
+.container_home .conhec_container .conhec_card {
+display: grid;
+background: rgb(39, 39, 39);
+border-radius: 16px;
+padding: 2rem 3rem;
+-webkit-box-align: center;
+align-items: center;
+-webkit-box-pack: center;
+justify-content: center;
+position: relative;
+overflow: hidden;
+user-select: none;
+}
+
+.container_home form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
 
 
 
