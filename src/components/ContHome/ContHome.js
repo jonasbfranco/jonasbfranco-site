@@ -53,17 +53,19 @@ export default function ContHome() {
         </section>
 
         <section>
-            <form className={styles.form}>
+        <h2 className={styles.h2_margin_top}>Entre em Contato</h2>
+
+            <form className={styles.cont_form}>
                 <div>
-                    <label for="name">Nome</label>
-                    <input type="text" value="" id="name" name="name" />
+                    <label htmlFor="name">Nome</label>
+                    <input type="text" id="name" name="name" />
                 </div>
                 <div>
-                    <label for="email">E-mail</label>
-                    <input type="email" value="" id="email" name="email" />
+                    <label htmlFor="email">E-mail</label>
+                    <input type="email" id="email" name="email" />
                 </div>
                 <div>
-                    <label for="message">Mensagem</label>
+                    <label htmlFor="message">Mensagem</label>
                     <textarea id="message"></textarea>
                 </div>
                 <div>
@@ -74,7 +76,7 @@ export default function ContHome() {
 
 
         <footer>
-                <p>Feito com 💙 por Jonas B. Franco</p>
+                <p>Feito com 💜 por Jonas B. Franco</p>
                 <a onClick={scrollToTop}>Voltar ao topo</a>
         </footer>
         

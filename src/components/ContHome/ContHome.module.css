@@ -81,7 +81,7 @@ user-select: none;
     align-items: center;
     -webkit-box-pack: center;
     justify-content: center;
-    background: linear-gradient(rgba(32, 142, 255, 0.7) 0%, rgb(51, 51, 51) 100%);
+    background: linear-gradient(#208effb3 0%, #333333 100%);
     width: 100%;
     height: 100%;
     text-transform: uppercase;
@@ -106,6 +106,95 @@ user-select: none;
 }
 
 
+
+/* FORM */
+.cont_form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+.cont_form div {
+    position: relative;
+}
+
+.cont_form label {
+    color: #9d7ee0;
+    /* color: #8b8b8b; */
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* position: absolute; */
+    top: 1rem;
+    left: 1rem;
+    transition: all 0.2s ease 0s;
+}
+
+.cont_form input:placeholder-shown label {
+    color: #208cfc;
+    font-size: 1.3rem;
+    font-weight: 500;
+    position: absolute;
+    top: -2.2rem;
+    left: 0px;
+    transition: all 0.2s ease 0s;
+}
+
+.cont_form textarea,
+.cont_form input {
+    width: 100%;
+    height: 3.6rem;
+    border-radius: 0.5rem;
+    background: #474646;
+    border: 2px solid #2b2b2b;
+    padding: 1rem;
+    color: #8b8b8b;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.cont_form input:focus,
+.cont_form textarea:focus {
+    border-color: #208cfc !important;
+}
+
+
+.cont_form textarea {
+    height: 10rem;
+    resize: none;
+    margin-bottom: 0px;
+}
+
+.cont_form div:nth-child(3) {
+    grid-column: 1 / 3;
+}
+
+.cont_form button {
+    background: #9d7ee0;
+    color: #ffffff;
+    border: none;
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    width: 140px;
+    height: 3.6rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+
+
+
+
 /* FOOTER */
 .container_home footer {
     width: 100%;
@@ -121,7 +210,7 @@ user-select: none;
     font-weight: 500;
     font-size: 1.2rem;
     letter-spacing: -0.025em;
-    color: rgb(139, 139, 139);
+    color: #8b8b8b;
 }
 
 .container_home footer a {
@@ -129,6 +218,6 @@ user-select: none;
     font-size: 1.2rem;
     letter-spacing: -0.025em;
     text-transform: uppercase;
-    color: rgb(32, 140, 252);
+    color: #9d7ee0;
     cursor: pointer;
 }

@@ -31,6 +31,11 @@ a {
   border-radius: 10px;
 }
 
+button {
+  cursor: pointer;
+}
+
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
