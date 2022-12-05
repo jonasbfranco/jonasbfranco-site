@@ -56,6 +56,7 @@ justify-content: center;
 position: relative;
 overflow: hidden;
 user-select: none;
+color: #fff;
 }
 
 .container_home form {

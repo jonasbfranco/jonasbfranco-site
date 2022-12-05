@@ -22,10 +22,7 @@ export default function NavBar() {
                     <li><FaWhatsapp /></li>
                 </ul>
             </div>
-            
-            <div>
-                <button><IoLanguage />Mudar Idioma</button>
-            </div>
+            <button><IoLanguage />Mudar Idioma</button>
         </div>
     )
 }
